@@ -126,3 +126,63 @@ table {
     margin-bottom: 46px;
     margin-top: 35px;
 }
+/* About us page code below*/
+.whole{
+	background: url(images/mountains.jpg);
+	background-size: 100%;
+}
+.Main-content{
+	display: flex;
+	flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+	height: 20%;
+}
+.Main-content h2{
+	text-align: start;
+	margin-bottom: 15px;
+	font-style: oblique;
+	font-size: 2rem;
+}
+.about-us{
+    width: 500px;
+    height: 250px;
+    margin: 40px 30px 20px 80px; ;
+	padding: 20px;
+	color: white;
+}
+.about-us2{
+    width: 500px;
+    height: 250px;
+    padding: 20px;
+    margin-left: 10px;
+	margin-top: 20px;
+	color: white;
+}
+.about-us3{
+    width: 500px;
+    height: 250px;
+    padding: 20px;
+	margin-left: 110px;
+	color: white;
+	background:rgba(78, 75, 75, 0.5);
+}
+.about-us4{
+    width: 500px;
+    height: 250px;
+    padding: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 46px;
+	margin-top: 35px;
+	color: white;
+	background:rgba(78, 75, 75, 0.5);
+}
+.footer {
+	color:hotpink;
+	
+	position: absolute;
+	bottom: 1px;
+	left: 800px;
+}
