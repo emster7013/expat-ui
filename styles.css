@@ -50,10 +50,32 @@ table {
 *{
 	box-sizing: border-box;
 }
+.mainNav{
+    
+    text-decoration: none;
+    background-color: #5F9EAD;
+    padding: 25px;
+    font-size: 25px;
+}
+
+a{
+    text-decoration: none;
+    color: #FFFACD;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.signUp{
+    float: right;
+    
+    
+}
 .homecont {
 	width: 100%;
 	display: flexbox;
+	background-image: linear-gradient(to left, #ffd700, #ecd604, #d9d50f, #c6d31a, #b3d125, #96cd3a, #7ac74b, #5fc15a, #33b670, #00a880, #009a8a, #008b8b);
 }
+
 .Welcome, .Welcome2 {
 	display: flex;
 	flex-wrap: wrap;
@@ -70,12 +92,22 @@ table {
 	font-size: 18px;
 	margin-top: 30px;
 }
-
-
-
+button {
+	outline: 1px solid transparent;
+	width: 10%;
+	height: 40px;
+	background-color: rgba(124, 121, 121, 0.5);
+	box-shadow: -3px 3px darkcyan, -2px 2px darkolivegreen, -1px 1px darkolivegreen;
+    border: 1px solid gold;
+	color: white;
+	margin: 15px, 30px;
+	padding: 25px, 80px;
+	position: relative;
+	left: 40px;
+}
 
 .boxes {
-	display: flex;
+	display: flex; 
 	flex-wrap: wrap;
     justify-content: center;
     align-items: center;
@@ -90,6 +122,8 @@ table {
     height: 250px;
     margin: 40px 30px 20px 80px; ;
 	padding: 20px;
+	color: white;
+	background:rgba(78, 75, 75, 0.5);
 }
 .boxes h3 {
 	font-size: 1.5rem;
@@ -105,7 +139,9 @@ table {
     height: 250px;
     padding: 20px;
     margin-left: 10px;
-    margin-top: 20px;
+	margin-top: 20px;
+	color: white;
+	background:rgba(78, 75, 75, 0.5);
     
 }
 .boxes-box3 {
@@ -113,7 +149,9 @@ table {
     width: 500px;
     height: 250px;
     padding: 20px;
-    margin-left: 110px;
+	margin-left: 110px;
+	color: white;
+	background:rgba(78, 75, 75, 0.5);
     
 }
 .boxes-box4 {
@@ -124,7 +162,43 @@ table {
     margin-left: 40px;
     margin-right: 40px;
     margin-bottom: 46px;
-    margin-top: 35px;
+	margin-top: 35px;
+	color: white;
+	background:rgba(78, 75, 75, 0.5);
+}
+
+@media (max-width: 500px){
+	.Welcome, .Welcome2 {
+		display: flex;
+		flex-wrap: wrap;
+		width: 100%;
+		margin-bottom: 25px;
+	}	
+	.Welcome h2, .Welcome2 h2{
+		font-size: 1.5rem;
+	}
+	.Welcome p, .Welcome2 p {
+		font-size: 1rem;
+	}
+	button{
+		margin-left: 100px;
+		position: relative;
+		width: 40%;
+		top: 10px;
+	}
+	.boxes{
+		display: flex;
+		width: 100%;
+	}
+	.boxes-box1, .boxes-box2, .boxes-box3, .boxes-box4 {
+		border: 1px solid black;
+		width: 500px;
+		height: 250px;
+		margin: 40px 30px 20px 40px; ;
+		padding: 20px;
+		color: white;
+		background:rgba(78, 75, 75, 0.5);
+	}
 }
 /* About us page code below*/
 .whole{
@@ -147,14 +221,14 @@ table {
 }
 .about-us{
     width: 500px;
-    height: 250px;
+    height: 150px;
     margin: 40px 30px 20px 80px; ;
 	padding: 20px;
 	color: white;
 }
 .about-us2{
     width: 500px;
-    height: 250px;
+    height: 150px;
     padding: 20px;
     margin-left: 10px;
 	margin-top: 20px;
@@ -162,7 +236,7 @@ table {
 }
 .about-us3{
     width: 500px;
-    height: 250px;
+    height: 150px;
     padding: 20px;
 	margin-left: 110px;
 	color: white;
@@ -170,18 +244,23 @@ table {
 }
 .about-us4{
     width: 500px;
-    height: 250px;
+    height: 150px;
     padding: 20px;
-    margin-left: 40px;
-    margin-right: 40px;
-    margin-bottom: 46px;
-	margin-top: 35px;
+	margin: 40px, 40px, 46px, 40px;
+	color: white;
+	background:rgba(78, 75, 75, 0.5);
+}
+.about-us5{
+    width: 500px;
+    height: 150px;
+    padding: 20px;
+	margin-left: 110px;
 	color: white;
 	background:rgba(78, 75, 75, 0.5);
 }
 .footer {
 	color:hotpink;
-	
+	font-style: bold;
 	position: absolute;
 	bottom: 1px;
 	left: 800px;
